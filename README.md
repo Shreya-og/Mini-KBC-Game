@@ -13,45 +13,24 @@ Welcome to the Mini-KBC Game! This is a Python-based quiz game inspired by the p
 
 - Python 3.x
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Trickybutshruti/FP-growth-Algorithm.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd FP-growth-Algorithm
-   ```
-
-## Usage
-
-1. Run the game script:
-   ```bash
-   python mini_kbc_game.py
-   ```
-2. Follow the on-screen instructions to play the game.
-
 ## Game Rules
 
 - You will be presented with multiple-choice questions.
-- Select the correct answer from the given options.
-- Use lifelines if you're unsure about an answer.
+- There are 15 questions
+- For each question you have 4 options out of which 1 is correct.
+- There are 3 checkpoints one at 5th question, one at 10th question 
+and the last one at 15th question.
+- If you want to quit the game in between you can quit by entering 0. The amount 
+you earned till last question will be your winning amount.
 - Your score will be displayed at the end of the game.
-
-## Lifelines
-
-- **50-50**: Eliminates two incorrect options.
-- **Ask the Audience**: Provides a hint based on audience poll.
-- **Phone a Friend**: Provides a hint from a virtual friend.
 
 ## Example Questions
 
-1. Who is the current president of the United States?
+1. Who was the first president of the United States?
    - A) Joe Biden
-   - B) Donald Trump
+   - B) Abraham Lincoln
    - C) Barack Obama
-   - D) George Bush
+   - D) George Washington
 
 2. What is the capital of France?
    - A) Berlin
